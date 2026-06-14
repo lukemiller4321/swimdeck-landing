@@ -3,18 +3,18 @@ const capabilities = [
     label: "YOUR SWIMMERS",
     h2: "Every student, right where you need them",
     paragraph:
-      "No more hunting through binders, spreadsheets, or clunky software to find a swimmer's information. Every student profile lives in one place — easy to find, easy to update, easy to share with your team.",
+      "No more hunting through binders, spreadsheets, or clunky software to find a swimmer's information. Every student profile lives in one place. Easy to find, easy to update, easy to share with your team.",
     bullets: [
       "Each swimmer has their own profile with age, notes, and parent contact info",
-      "Bring your existing swimmer list with you — we'll help you get set up",
-      "Search your whole school instantly — find any swimmer by name in seconds",
+      "Bring your existing swimmer list with you. We'll help you get set up.",
+      "Search your whole school instantly. Find any swimmer by name in seconds.",
       "Brothers and sisters are automatically connected to the same parent",
       "Important notes about a swimmer show up right where instructors need them",
     ],
     cards: [
       {
         title: "Everything in one place",
-        body: "No more sticky notes, no more separate spreadsheets. Every swimmer's details are organized and ready whenever you need them.",
+        body: "No more sticky notes or separate spreadsheets. Every swimmer's details are organized and ready whenever you need them.",
       },
       {
         title: "We set it up for you",
@@ -28,21 +28,21 @@ const capabilities = [
     paragraph:
       "Your instructors fill out report cards on their phones, right at the pool. You review and send them out. Parents hear about it automatically. The whole process takes care of itself.",
     bullets: [
-      "Instructors rate each skill on their phone — no paper, no clipboards",
+      "Instructors rate each skill on their phone. No paper, no clipboards.",
       "Work in progress is saved automatically so nothing gets lost",
       "A writing helper gives instructors ideas for comments so feedback is always thoughtful",
-      "You review everything before it goes out — approve one at a time or all at once",
+      "You review everything before it goes out. Approve one at a time or all at once.",
       "If something needs fixing, send it back to the instructor with a quick note",
-      "Parents get a beautiful email the moment you approve — no extra steps needed",
+      "Parents get a beautiful email the moment you approve. No extra steps needed.",
     ],
     cards: [
       {
         title: "No more chasing instructors",
-        body: "You can see exactly where every report card stands at any moment — who's working on theirs, who's done, and what's waiting for your review.",
+        body: "You can see exactly where every report card stands. Who's working on theirs, who's done, and what's waiting for your review.",
       },
       {
         title: "Parents love it",
-        body: "They get a well-designed progress card they can pull up on their phone anytime. No app to download, no account to create — just a simple link.",
+        body: "They get a well-designed progress card they can pull up on their phone anytime. No app to download, no account to create. Just a simple link.",
       },
     ],
   },
@@ -50,11 +50,11 @@ const capabilities = [
     label: "YOUR TEAM",
     h2: "Everything your staff needs, all in one spot",
     paragraph:
-      "SwimDeck gives your team a home base — a place to check in, submit requests, read up on policies, and stay connected. Less back-and-forth for everyone.",
+      "SwimDeck gives your team a home base. A place to check in, submit requests, read up on policies, and stay connected. Less back-and-forth for everyone.",
     bullets: [
-      "Staff can request time off or report sick time directly in the app — no texts needed",
+      "Staff can request time off or report sick time directly in the app. No texts needed.",
       "Incident and accident reports are filed right away and stored safely",
-      "Schedule change requests go through the app — no more lost messages",
+      "Schedule change requests go through the app. No more lost messages.",
       "Your policies and training materials are always one tap away for the whole team",
       "Send a message to your whole team at once with a broadcast announcement",
       "A shared time-off calendar keeps everyone on the same page",
@@ -62,11 +62,11 @@ const capabilities = [
     cards: [
       {
         title: "You stay in control",
-        body: "Every request your staff submits comes straight to you to review. Nothing falls through the cracks, and you always know what's going on across your school.",
+        body: "Every request your staff submits comes straight to you to review. Nothing falls through the cracks and you always know what's going on across your school.",
       },
       {
         title: "Your staff will actually use it",
-        body: "It's simple enough that instructors pick it up in one session. No training days, no manuals — just a tool that makes their job a little easier.",
+        body: "It's simple enough that instructors pick it up in one session. No training days, no manuals. Just a tool that makes their job a little easier.",
       },
     ],
   },
@@ -74,11 +74,11 @@ const capabilities = [
     label: "PARENTS",
     h2: "Keep parents happy without extra work",
     paragraph:
-      "Parents want to know how their child is doing. SwimDeck takes care of that for you — automatically, every time a report card goes out.",
+      "Parents want to know how their child is doing. SwimDeck takes care of that for you. Automatically, every time a report card goes out.",
     bullets: [
       "Parents get an email the moment their child's report card is ready",
       "They can see a beautifully designed progress card on any phone or computer",
-      "No account needed — they just click the link and see everything",
+      "No account needed. They just click the link and see everything.",
       "They can look back and see how their child has improved over time",
       "Families with more than one swimmer only need one email address",
     ],
@@ -102,17 +102,17 @@ const roles = [
     bullets: [
       "See everything happening across your school in one dashboard",
       "Review and send out report cards whenever you're ready",
-      "Manage your team — add staff, set their roles, and reset passwords easily",
+      "Manage your team. Add staff, set their roles, and reset passwords easily.",
       "Review time-off requests, incident reports, and schedule changes in one place",
       "Send announcements to your whole team in seconds",
-      "Always know who did what and when — nothing is ever a mystery",
+      "Always know who did what and when. Nothing is ever a mystery.",
     ],
   },
   {
     borderColor: "#C9A84C",
     h3: "Instructor",
     bullets: [
-      "See only your swimmers — no clutter from the rest of the school",
+      "See only your swimmers. No clutter from the rest of the school.",
       "Fill out report cards from your phone, right at the pool",
       "Get helpful comment ideas so writing feedback is never a struggle",
       "Request time off or report sick time without tracking anyone down",
@@ -128,7 +128,7 @@ const roles = [
       "See exactly which skills your child is working on and how they're doing",
       "Read the instructor's personal feedback for your child",
       "Watch your child's progress grow over time",
-      "No app to download — just open the link in any browser",
+      "No app to download. Just open the link in any browser.",
     ],
   },
 ];
@@ -205,7 +205,7 @@ export default function Home() {
           </h1>
 
           <p className="text-[#5a6070] text-xl leading-relaxed mb-10 max-w-xl">
-            One platform for your roster, your staff, and your parents.
+            One platform for your students, your staff, and your parents.
           </p>
 
           <div className="flex flex-wrap items-center gap-6">
@@ -295,9 +295,8 @@ export default function Home() {
               Something useful for every role
             </h2>
             <p className="text-[#5a6070] leading-relaxed max-w-xl mx-auto">
-              Whether you're running the school, teaching in the water, or a
-              parent checking in on your child — SwimDeck was made with you in
-              mind.
+              SwimDeck was made for everyone at your school. The owner, the
+              instructor, and the parent.
             </p>
           </div>
 
